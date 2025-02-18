@@ -473,107 +473,112 @@
 
       <!-- Purchase monitoring section -->
       <section class="purchase-monitoring">
-        <div class="row">
-          <div class="col-lg-6 bg-white py-5">
-            <h2 class="text-center mb-3">Xaridlar monitoringi</h2>
-            <div class="d-flex justify-content-center gap-2">
-              <div class="dropdown custom-dropdown">
-                <button
-                  class="dropdown-toggle"
-                  type="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                >
-                  2025-yil
-                </button>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">2025-yil</a></li>
-                  <li><a class="dropdown-item" href="#">2024-yil</a></li>
-                  <li><a class="dropdown-item" href="#">2023-yil</a></li>
-                  <li><a class="dropdown-item" href="#">2022-yil</a></li>
-                </ul>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6 bg-white py-5">
+              <h2 class="text-center mb-3">Xaridlar monitoringi</h2>
+              <div class="d-flex justify-content-center gap-2">
+                <div class="dropdown custom-dropdown">
+                  <button
+                    class="dropdown-toggle"
+                    type="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    2025-yil
+                  </button>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">2025-yil</a></li>
+                    <li><a class="dropdown-item" href="#">2024-yil</a></li>
+                    <li><a class="dropdown-item" href="#">2023-yil</a></li>
+                    <li><a class="dropdown-item" href="#">2022-yil</a></li>
+                  </ul>
+                </div>
+                <div class="dropdown custom-dropdown">
+                  <button
+                    class="dropdown-toggle"
+                    type="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Yanvar
+                  </button>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Yanvar</a></li>
+                    <li><a class="dropdown-item" href="#">Fevral</a></li>
+                    <li><a class="dropdown-item" href="#">Mart</a></li>
+                    <li><a class="dropdown-item" href="#">Aprel</a></li>
+                    <li><a class="dropdown-item" href="#">May</a></li>
+                    <li><a class="dropdown-item" href="#">Iyun</a></li>
+                    <li><a class="dropdown-item" href="#">Iyul</a></li>
+                    <li><a class="dropdown-item" href="#">Avgust</a></li>
+                    <li><a class="dropdown-item" href="#">Sentabr</a></li>
+                    <li><a class="dropdown-item" href="#">Oktabr</a></li>
+                    <li><a class="dropdown-item" href="#">Noyabr</a></li>
+                    <li><a class="dropdown-item" href="#">Dekabr</a></li>
+                  </ul>
+                </div>
               </div>
-              <div class="dropdown custom-dropdown">
-                <button
-                  class="dropdown-toggle"
-                  type="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                >
-                  Yanvar
-                </button>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Yanvar</a></li>
-                  <li><a class="dropdown-item" href="#">Fevral</a></li>
-                  <li><a class="dropdown-item" href="#">Mart</a></li>
-                  <li><a class="dropdown-item" href="#">Aprel</a></li>
-                  <li><a class="dropdown-item" href="#">May</a></li>
-                  <li><a class="dropdown-item" href="#">Iyun</a></li>
-                  <li><a class="dropdown-item" href="#">Iyul</a></li>
-                  <li><a class="dropdown-item" href="#">Avgust</a></li>
-                  <li><a class="dropdown-item" href="#">Sentabr</a></li>
-                  <li><a class="dropdown-item" href="#">Oktabr</a></li>
-                  <li><a class="dropdown-item" href="#">Noyabr</a></li>
-                  <li><a class="dropdown-item" href="#">Dekabr</a></li>
-                </ul>
-              </div>
+              <div id="uzb-map"></div>
             </div>
-            <div class="uzb-map"></div>
-          </div>
-          <div class="region_info col-lg-6 bg-bottom-header text-white py-5">
-            <h2 class="region_name__title">Navoiy viloyati</h2>
-            <div class="monitoring_items__wrapper">
-              <!-- monitoring item 1 -->
-              <div class="monitoring-item">
-                <img
-                  src="./assets/images/total-purchases.svg"
-                  alt="total-purchases"
-                />
-                <p>
-                  <span>Jami xaridlar</span>
-                  <b>8.5 mlrd. so'm</b>
-                </p>
-              </div>
-              <!-- monitoring item 1 -->
-              <div class="monitoring-item">
-                <img src="./assets/images/saved-money.svg" alt="saved-money" />
-                <p>
-                  <span>Iqtisod qilingan mablag‘</span>
-                  <b>6.5 mlrd. so'm</b>
-                </p>
-              </div>
-              <!-- monitoring item 1 -->
-              <div class="monitoring-item">
-                <img
-                  src="./assets/images/customers-number.svg"
-                  alt="customers-number"
-                />
-                <p>
-                  <span>Buyurtmachilar soni</span>
-                  <b>425 ta</b>
-                </p>
-              </div>
-              <!-- monitoring item 1 -->
-              <div class="monitoring-item">
-                <img
-                  src="./assets/images/entrepreneurs-number.svg"
-                  alt="entrepreneurs-number"
-                />
-                <p>
-                  <span>Tadbirkorlar soni</span>
-                  <b>8 ta</b>
-                </p>
-              </div>
-              <!-- monitoring item 1 -->
-              <div class="monitoring-item">
-                <img
-                  src="./assets/images/purchases-number.svg"
-                  alt="purchases-number"
-                />
-                <p>
-                  <span>Xaridlar soni</span>
-                  <b>1200 ta</b>
-                </p>
+            <div class="region_info col-lg-6 bg-bottom-header text-white py-5">
+              <h2 class="region_name__title">Navoiy viloyati</h2>
+              <div class="monitoring_items__wrapper">
+                <!-- monitoring item 1 -->
+                <div class="monitoring-item">
+                  <img
+                    src="./assets/images/total-purchases.svg"
+                    alt="total-purchases"
+                  />
+                  <p>
+                    <span>Jami xaridlar</span>
+                    <b>8.5 mlrd. so'm</b>
+                  </p>
+                </div>
+                <!-- monitoring item 1 -->
+                <div class="monitoring-item">
+                  <img
+                    src="./assets/images/saved-money.svg"
+                    alt="saved-money"
+                  />
+                  <p>
+                    <span>Iqtisod qilingan mablag‘</span>
+                    <b>6.5 mlrd. so'm</b>
+                  </p>
+                </div>
+                <!-- monitoring item 1 -->
+                <div class="monitoring-item">
+                  <img
+                    src="./assets/images/customers-number.svg"
+                    alt="customers-number"
+                  />
+                  <p>
+                    <span>Buyurtmachilar soni</span>
+                    <b>425 ta</b>
+                  </p>
+                </div>
+                <!-- monitoring item 1 -->
+                <div class="monitoring-item">
+                  <img
+                    src="./assets/images/entrepreneurs-number.svg"
+                    alt="entrepreneurs-number"
+                  />
+                  <p>
+                    <span>Tadbirkorlar soni</span>
+                    <b>8 ta</b>
+                  </p>
+                </div>
+                <!-- monitoring item 1 -->
+                <div class="monitoring-item">
+                  <img
+                    src="./assets/images/purchases-number.svg"
+                    alt="purchases-number"
+                  />
+                  <p>
+                    <span>Xaridlar soni</span>
+                    <b>1200 ta</b>
+                  </p>
+                </div>
               </div>
             </div>
           </div>
@@ -886,7 +891,11 @@
         <!-- third row -->
         <div class="third-row">
           <div class="third-row_logo-media">
-            <img src="./assets/images/white-logo.svg" alt="logo" class="cursor-pointer"/>
+            <img
+              src="./assets/images/white-logo.svg"
+              alt="logo"
+              class="cursor-pointer"
+            />
             <div class="social-media">
               <i class="icon icon-facebook"></i>
               <i class="icon icon-instagram"></i>
@@ -911,6 +920,9 @@
       src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"
       defer
     ></script>
+    <!-- Highchart -->
+    <script src="https://code.highcharts.com/maps/highmaps.js"></script>
+    <script src="https://code.highcharts.com/maps/modules/exporting.js"></script>
     <!-- Main js -->
     <script src="./js/main.js" defer></script>
   </body>

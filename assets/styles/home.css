@@ -257,11 +257,14 @@
 
 /* Purchase monitoring section */
 
-.region_info {
-    background: linear-gradient(#1f262cf3, #1f262cf3), url('../images/bg-monitoring.png');
+.purchase-monitoring {
+    background:
+        linear-gradient(to right, white 50%, #1f262cf1 50%),
+        url('../images/bg-monitoring.png');
     background-color: var(--bg-bottom-header);
     background-repeat: no-repeat;
     background-position: right;
+    background-size: auto;
 }
 
 .region_name__title {
@@ -300,6 +303,19 @@
     font-size: 24px;
     font-weight: 700;
     line-height: 29px;
+}
+
+#uzb-map {
+    height: 500px;
+    min-width: 310px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.loading {
+    margin-top: 10em;
+    text-align: center;
+    color: gray;
 }
 
 /* Last products */
