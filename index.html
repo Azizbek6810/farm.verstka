@@ -78,18 +78,21 @@
               </div>
               <!-- auth buttons -->
               <div class="auth-buttons">
-                <button class="main-outline-btn">Ro'yxatdan o'tish</button>
-                <button class="main-btn">
+                <button class="main-outline-btn">
                   <i class="icon-user"></i>
+                  Ro'yxatdan o'tish
+                </button>
+                <button class="main-btn">
+                  <i class="icon-login"></i>
                   <span>Kirish</span>
                 </button>
               </div>
             </div>
-            <!-- hamburger menu icon -->
-            <button class="hamburger">
-              <i class="icon-menu"></i>
-            </button>
           </div>
+          <!-- hamburger menu icon -->
+          <button class="hamburger">
+            <i class="icon-menu"></i>
+          </button>
         </div>
       </div>
 
@@ -109,22 +112,70 @@
       </div>
 
       <!-- Mobile menu -->
-      <div class="mobile-menu d-lg-none">
-        <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Services</a></li>
-          <li><a href="#">Contact</a></li>
-          <li>
-            <button>Ro'yxatdan o'tish</button>
-          </li>
-          <li>
-            <button>
-              <i class="icon-user"></i>
-              <span>Kirish</span>
-            </button>
-          </li>
-        </ul>
+      <div class="mobile-menu">
+        <div>
+          <div class="mobile-menu_header">
+            <!-- Logo -->
+            <div class="logo">
+              <img src="./assets/images/blue-logo.svg" alt="logo" />
+            </div>
+            <i class="icon-x-close"></i>
+          </div>
+          <hr />
+          <div class="mobile-menu_body">
+            <ul>
+              <li><a href="#" class="active">Asosiy</a></li>
+              <li><a href="#" class="">Savdolar</a></li>
+              <li><a href="#" class="">Tovar</a></li>
+              <li><a href="#" class="">Tizimdagi yangiliklar</a></li>
+              <li><a href="#" class="">Bog'lanish uchun</a></li>
+            </ul>
+            <hr />
+            <!-- auth buttons -->
+            <div class="mobile_auth__buttons">
+              <button class="main-outline-btn">
+                <i class="icon-user"></i>
+                Ro'yxatdan o'tish
+              </button>
+              <button class="main-btn">
+                <i class="icon-login"></i>
+                <span>Kirish</span>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="mobile-menu_footer">
+          <!-- contact -->
+          <div class="contact-info">
+            <i class="icon-call transition-300"></i>
+            <div>
+              <a href="tel:+998712070033" class="fw-semibold text-black fs-5"
+                >+998 71 207 00 33</a
+              >
+              <p>24/7 Qanday yordam kerak?</p>
+            </div>
+          </div>
+          <ul class="mobile_lang__wrapper">
+            <li>
+              <a class="mobile_lang active" href="#">
+                <img src="./assets/images/uz-flag.svg" alt="flag" />
+                <span>UZ</span>
+              </a>
+            </li>
+            <li>
+              <a class="mobile_lang" href="#">
+                <img src="./assets/images/ru-flag.svg" alt="flag" />
+                <span>РУ</span>
+              </a>
+            </li>
+            <li>
+              <a class="mobile_lang" href="#">
+                <img src="./assets/images/en-flag.svg" alt="flag" />
+                <span>EN</span>
+              </a>
+            </li>
+          </ul>
+        </div>
       </div>
     </header>
 
