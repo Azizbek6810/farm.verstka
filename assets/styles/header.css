@@ -1,0 +1,58 @@
+.top-header {
+    padding: 15px 0;
+}
+
+.top-header-right {
+    display: flex;
+    align-items: center;
+    gap: 125px;
+}
+
+.hamburger {
+    display: none;
+}
+
+.contact-info {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.icon-call {
+    border: 3px solid var(--main-blue);
+    padding: 7px;
+    border-radius: 50%;
+    font-weight: 600;
+    font-size: 20px;
+    color: var(--main-blue);
+    cursor: pointer;
+}
+
+.icon-call:hover {
+    transform: scale(1.1);
+}
+
+.bottom-header {
+    background-color: var(--bg-bottom-header);
+}
+
+.bottom-header ul{
+    display: flex;
+    justify-content: start;
+    gap: 10px;
+}
+
+.bottom-header li a {
+    display: inline-block;
+    padding: 24px 32px;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px;
+    transition: all 0.3s ease;
+}
+
+.bottom-header li a.active,
+.bottom-header li a:hover {
+    background-color: var(--main-blue);
+}
