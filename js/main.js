@@ -1,3 +1,21 @@
+let mobileMenu = document.querySelector("#mobile-menu");
+let hamburger = document.querySelector("#hamburger");
+let closeBtn = document.querySelector("#close");
+
+hamburger.addEventListener("click", () => {
+  mobileMenu.classList.toggle("show");
+  if (hamburger.classList.contains("active")) {
+    hamburger.classList.remove("active");
+  } else {
+    hamburger.classList.add("active");
+  }
+});
+
+closeBtn.addEventListener("click", () => {
+  mobileMenu.classList.remove("show");
+  hamburger.classList.remove("active");
+});
+
 let swiper = new Swiper(".mySwiper", {
   slidesPerView: 3,
   spaceBetween: 30,
