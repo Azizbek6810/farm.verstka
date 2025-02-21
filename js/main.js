@@ -32,6 +32,24 @@ let swiper = new Swiper(".mySwiper", {
     delay: 5000,
     disableOnInteraction: false,
   },
+  breakpoints: {
+    0: {
+      slidesPerView: 1,
+      spaceBetween: 0,
+    },
+    576: {
+      slidesPerView: 2,
+      spaceBetween: 20,
+    },
+    1024: {
+      slidesPerView: 3,
+      spaceBetween: 30,
+    },
+    1200: {
+      slidesPerView: 3,
+      spaceBetween: 50,
+    },
+  },
 });
 
 (async () => {
